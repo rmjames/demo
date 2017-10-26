@@ -5,7 +5,7 @@ const cacheName = 'v1',
         'index.html'
       ]
       
-self.addEventListener('install, e => {
+self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName)
       .then( cache => cache.addAll(cacheAssets) )
