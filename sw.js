@@ -3,7 +3,7 @@
 const cacheName = 'v1',
       cacheAssets = [
         'index.html'
-      ]
+      ];
       
 self.addEventListener('install', e => {
   e.waitUntil(
